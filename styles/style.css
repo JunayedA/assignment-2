@@ -478,7 +478,7 @@ footer style
 /* -----------------------
 talet device responsiv 
 ------------------------- */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 480px) and (max-width: 992px) {
   .container-1,
   .container-2,
   .container-3,
