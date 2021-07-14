@@ -1,0 +1,498 @@
+/* h1 tags font link  */
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+/* p tags font link  */
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Poppins&display=swap");
+/* button font link  */
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Oxygen&family=Poppins&display=swap");
+/* footer font style  */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* common style and utilities */
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 1440px;
+  height: 677px;
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-container {
+  margin-top: 42px;
+}
+/* menu style  */
+.menu-container {
+  width: 1160px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-container a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 36px;
+}
+.menu-container button {
+  border: none;
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  width: 123px;
+  height: 44px;
+  align-items: center;
+  transition: 0.5s;
+}
+/* banner style  */
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-title {
+  width: 485px;
+  height: 230px;
+}
+.banner-title h1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  margin: 89px 50px 69px;
+}
+.banner-title button {
+  border: none;
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  width: 168px;
+  height: 44px;
+  transition: 0.5s;
+  margin-left: 50px;
+}
+.banner-img {
+  overflow: hidden;
+}
+.banner-img img {
+  width: 556.01px;
+  height: 438px;
+  margin: 59px 0 104px;
+  transition: transform 3s ease-in-out;
+}
+/* -----------------
+transition and transform  
+-----------------------*/
+.banner-img:hover img {
+  transform: scale(1.5);
+}
+button:hover {
+  background-color: #ffffff;
+  color: #e02c6d;
+}
+/* main section style  */
+.top-players {
+  margin-bottom: 165px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+.player h1 {
+  color: #18191f;
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+}
+.player p {
+  color: #6c6c6c;
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+}
+/* -----------------------
+section-2 style all highlights 
+------------------*/
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-start;
+  margin-bottom: 158px;
+}
+.highlights-blog {
+  width: 466px;
+  height: 309px;
+}
+.highlights-blog h1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #0a0826;
+  width: 466px;
+  height: 120px;
+  margin: 40px 0 80px;
+}
+.highlights-blog p {
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+.highlights-blog button {
+  border: none;
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
+  align-items: flex-start;
+  padding: 10px 24px;
+  width: 173px;
+  height: 44px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.highlights-img img {
+  width: 567px;
+  height: 427px;
+}
+/*--------------------------------
+ section-2 style goalkeepers style youtube cideo style
+---------------------------------- */
+.container-3 h1 {
+  display: flex;
+  color: #18191f;
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.new-highlights {
+  display: flex;
+}
+/*----------------------
+ container-3 style 
+--------------------- */
+.top-goalkeepers {
+  margin-bottom: 165px;
+  margin-top: 100px;
+}
+.goalkeepers-title {
+  display: flex;
+  color: #18191f;
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.goalkeepers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.goalkeeper {
+  width: 330px;
+  height: 474px;
+}
+.goalkeeper img {
+  width: 300px;
+  height: 356px;
+}
+.goalkeeper h1 {
+  color: #18191f;
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+}
+.goalkeeper p {
+  color: #6c6c6c;
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+}
+/* ---------------------------
+section-4 style clubs style  
+------------------------*/
+.top-clubs {
+  margin-bottom: 165px;
+}
+.clubs-title {
+  display: flex;
+  color: #18191f;
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.clubs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 100px;
+}
+.club {
+  width: 330px;
+  height: 474px;
+}
+.club img {
+  width: 300px;
+  height: 356px;
+}
+.club h1 {
+  color: #18191f;
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+}
+.club p {
+  color: #6c6c6c;
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin-bottom: 27px;
+}
+/*-----------------
+ footer style 
+------------------- */
+.footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer-img img {
+  width: 483.87px;
+  height: 110px;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.social-icon i {
+  margin: 0 14px;
+  color: #969bab;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 63px;
+}
+.copyright h3 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  font-family: "Rubik", sans-serif;
+}
+/*--------------------
+ media queries 
+------------------------- */
+/* ------------------------
+mobile device  
+----------------------*/
+@media only screen and (max-width: 480px) {
+  .menu-container {
+    display: none;
+  }
+  header {
+    width: 100%;
+  }
+  .header-container {
+    width: 100%;
+  }
+  .banner-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner-title,
+  .banner-img {
+    flex-direction: column;
+  }
+  .banner-title {
+    width: 100%;
+  }
+  .banner-img img {
+    width: 100%;
+    margin-top: 400px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-1 {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 450px;
+  }
+  .player {
+    flex-direction: column;
+  }
+  .player img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+/* 2nd container  */
+@media only screen and (max-width: 480px) {
+  .container-2 {
+    width: 100%;
+  }
+  .container-2,
+  .new-highlights {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlights-blog,
+  .highlights-img {
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  iframe {
+    width: 100%;
+  }
+  .highlights-img img {
+    width: 100%;
+  }
+}
+/* 3rd container  */
+@media only screen and (max-width: 480px) {
+  .container-3 {
+    width: 100%;
+  }
+  .goalkeepers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .goalkeeper {
+    flex-direction: column;
+  }
+  .goalkeeper img {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+}
+/* 4th container and last mani container  */
+@media only screen and (max-width: 480px) {
+  container-4 {
+    width: 100%;
+  }
+  .clubs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .club {
+    flex-direction: column;
+  }
+  .club img {
+    width: 100%;
+  }
+}
+/* -----------------
+footer style
+------------------  */
+@media only screen and (max-width: 480px) {
+  footer {
+    width: 100%;
+  }
+  .footer-img {
+    width: 100%;
+  }
+  .footer-img img {
+    width: 100%;
+  }
+  .social-icon {
+    width: 100%;
+  }
+  .copyright {
+    width: 100%;
+  }
+  .copyright h3 {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* -----------------------
+talet device responsiv 
+------------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container-1,
+  .container-2,
+  .container-3,
+  .container-4 {
+    width: 100%;
+  }
+  .players,
+  .goalkeepers,
+  .clubs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player,
+  .goalkeeper,
+  .club {
+    flex-direction: column;
+  }
+}
